@@ -35,16 +35,22 @@ Blocked by GFW(like China) can't download `tensorflow.keras.datasets.*` by calli
 
 # Usage
 
-Copy `utils` directory to any project.
+## For quick start
 
-## python
+Open `notebook` in `official_quickstart`.
+
+## For your examples project
+
+copy `utils` directory to any project.
+
+### python
 ```python
 from utils.local_datasets import load_data_fashion_mnist
 
 (train_images, train_labels), (test_images, test_labels) = load_data_fashion_mnist()
 ```
 
-## jupyter notebook
+### jupyter notebook
 ```jupyter
 import os
 import sys
